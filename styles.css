@@ -63,3 +63,10 @@ body {
     font-size: 48px;
     color: white;
 }
+
+/* Adicionando regra de mídia para dispositivos moveis */
+@media only screen and (max-width: 500px) {
+    .cards {
+        grid-template-columns: repeat(3, minmax(50px, 1fr)); /* Alterando para 3 colunas */
+    }
+}
